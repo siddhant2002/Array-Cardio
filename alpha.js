@@ -52,6 +52,17 @@ const inventors = [
   console.table(lived);
 
   // Array.prototype.map()
+  // 6. Create a list of boulevards in paris that contain "de" anywhere in the name
+  // https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
+  // const category = document.querySelector('.mw-category');
+  // const links = Array.from(category.querySelectorAll('a'));
+  // const de = links
+  //              .map(link => link.textContent)
+  //              .filter(streetName => streetName.includes('de'));
+
+
+
+
   // Array.prototype.sort()
   // 7.  Sorting names as per the last name
   const lastNames = people.sort((a,b) => {
